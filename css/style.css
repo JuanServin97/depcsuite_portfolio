@@ -32,8 +32,16 @@ ul li:last-child{
     border-radius: 14px;
 }
 
+.shadow{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+textarea{
+    height: 150px;
+}
+
 textarea .form-control{
-    height: 200px ;
+    min-height: 200px ;
 }
 
 .btn{
@@ -68,10 +76,14 @@ footer, footer a{
     text-align: center;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    padding: 2px 0px 2px 0px ;
+    padding: 2px 0px 2  px 0px ;
 }
 
 .whatsapp a {
     color: #fff;
     font-weight: 400px;
+}
+
+.iconos{
+    font-size: 30px;
 }
