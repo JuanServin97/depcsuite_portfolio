@@ -50,6 +50,11 @@ textarea .form-control{
     border-radius: 14px;
 }
 
+.btn-rojo{
+    padding-right: 9px;
+    padding-left: 9px;
+}
+
 .btn:hover{
     background-color: #370a6d;
     color: #fff;
@@ -86,4 +91,27 @@ footer, footer a{
 
 .iconos{
     font-size: 30px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    #contacto{
+        background-image: url(../images/fondo-proyectos.png);
+        background-repeat: no-repeat;
+    }
+    .navbar-toggler-icon{
+        color: black;
+    }
+    .underline{
+        color: #E20000;
+    }
+    .icon:last-child{
+        color: #E20000;
+    }
+    .btn-enviar{
+        background-color: #fff;
+    }
 }
