@@ -23,7 +23,7 @@ p{
     color: #282828;
 }
 
-ul li:last-child{
+nav .active{
     border: 1px #E20000 solid;
     border-radius: 15px;
 }
@@ -53,6 +53,12 @@ textarea .form-control{
 .btn-rojo{
     padding-right: 9px;
     padding-left: 9px;
+    background-color: #E20000 ;
+    color: white !important;
+}
+
+.btn .btn-rojo a{
+    color: white;
 }
 
 .btn:hover{
@@ -93,6 +99,10 @@ footer, footer a{
     font-size: 30px;
 }
 
+.iconos-rojo{
+    color: #E20000;
+}
+
 .underline{
     text-decoration: underline;
 }
@@ -101,9 +111,6 @@ footer, footer a{
     #contacto{
         background-image: url(../images/fondo-proyectos.png);
         background-repeat: no-repeat;
-    }
-    .navbar-toggler-icon{
-        color: black;
     }
     .underline{
         color: #E20000;
@@ -114,4 +121,46 @@ footer, footer a{
     .btn-enviar{
         background-color: #fff;
     }
+    .navbar{
+        color: #000 !important;
+    }
+}
+
+
+/* Proyectos */
+
+#proyectos{
+    background-image: url(../images/fondo-proyectos.png);
+    background-repeat: no-repeat;
+}
+
+.proyecto{
+    border: 1px solid #6a6a6a;
+    background-color: white;
+}
+
+.proyecto h2{
+    background-color: #E20000;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+}
+
+.proyecto p{
+    font-size: 14px;
+}
+
+.proyecto a{
+    color: #E20000;
+    text-decoration: none;
+}
+
+.proyecto img{
+    height: 208px;
+}
+
+#proyectos1{
+    background-image: url('../images/fondo-proyectos.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
