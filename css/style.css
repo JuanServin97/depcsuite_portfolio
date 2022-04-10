@@ -119,13 +119,19 @@ footer, footer a{
         color: #E20000;
     }
     .btn-enviar{
-        background-color: #fff;
+        color: #E20000;
     }
     .navbar{
         color: #000 !important;
     }
+    .red-text{
+        color: #E20000 !important;
+    }
 }
 
+.red-text{
+    color: #E20000; 
+}
 
 /* Proyectos */
 
@@ -163,4 +169,28 @@ footer, footer a{
     background-image: url('../images/fondo-proyectos.png');
     background-size: 100%;
     background-repeat: no-repeat;
+}
+
+.cohete img{
+    max-height: 400px;
+}
+
+/* Index*/
+.inicio_titulo{
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+}
+.inicio_p{
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    padding: 2px;
+    border-radius: 30px;
+}
+
+.inicio_p:hover{
+    background-color: #370a6d;
+    color: #fff;
 }
