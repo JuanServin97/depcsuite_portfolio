@@ -14,35 +14,7 @@
 </head>
 
 <body id="">
-    <header class="container">
-        <nav class="navbar navbar-expand-md  mb-4">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item active">
-                            <a class="nav-link  px-4 py-1" aria-current="page" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="sobre-mi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-4 py-1" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link px-4 py-1" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>   
-                    <div class="d-inline">
-                        <a class="btn btn-rojo btn-outline-success" type="submit">Descargar mi CV<i class="fa-solid fa-download"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php include_once ("header.php") ?>
 
     <main class="">
         <section class="encabezado py-2 container">   
@@ -130,26 +102,7 @@
         </section>
     </main>
 
-    <footer class="container">
-        <div class="row col mt-3 pb-3">
-            <div class="col-lg-3 col-sm-12 text-center text-sm-center col-m-12"> 
-                <a href="https://github.com/JuanServin97/depcsuite_portfolio" class="icon" id="icon-sobre"><i class="fa-brands fa-github iconos    "></i></a> 
-                <a href="#" class="icon" id="icon-sobre"><i class="fa-brands fa-linkedin iconos m-3 mb-3" ></i></a>
-            </div>
-
-            <div class="col-lg-3 col-sm-12 text-center col-m-12 mt-3 " id="icon-sobre">Sponsor 
-                <a href="https://github.com/JuanServin97" class="underline" id="icon-sobre">DePC Suite</a>
-                
-            </div>
-
-            <div class="col-lg-3 col-sm-12 text-center col-m-12 mt-3">
-                 <a href="mailto:juanjoservin2@hotmail.com" class="underline" id="icon-sobre">Contáctame</a> 
-            </div>
-        </div>
-    </footer>   
-    <div class="whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=595986406166" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
-    </div>
+    <?php include_once ("footer.php");  ?>
 </body>
 
 </html>
