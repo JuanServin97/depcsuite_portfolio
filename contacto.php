@@ -14,7 +14,9 @@
 </head>
 
 <body id="contacto">
-    <?php include_once ("header.php"); ?>
+    <?php 
+    $pg = "contacto";
+    include_once ("header.php"); ?>
 
 
     <main class="container">

@@ -14,7 +14,9 @@
 </head>
 
 <body id="">
-    <?php include_once ("header.php") ?>
+    <?php 
+    $pg = "sobre-mi";
+    include_once ("header.php") ?>
 
     <main class="">
         <section class="encabezado py-2 container">   

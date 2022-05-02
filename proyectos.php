@@ -14,7 +14,9 @@
 </head>
 
 <body id="proyectos1">
-    <?php include_once ("header.php"); ?>
+    <?php 
+        $pg = "proyectos";
+    include_once ("header.php"); ?>
 
     <main class="container">
         <div class="col-12 pt-3 mt-3">
